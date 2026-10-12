@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills | Alex Carter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body id="skills">
+
+  <!-- ===== LOADING SCREEN ===== -->
+  <div class="loading-screen">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">Loading</div>
+  </div>
+
+  <!-- ===== SCROLL PROGRESS ===== -->
+  <div class="scroll-progress"></div>
+
+  <!-- ===== PARTICLES BACKGROUND ===== -->
+  <div class="particles-bg"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Alex<span>.</span>Carter</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html" class="active">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== PAGE WRAPPER ===== -->
+  <div class="page-wrapper">
+
+    <!-- ===== PAGE HEADER ===== -->
+    <div class="page-header">
+      <h1>My Skills</h1>
+      <p>Technologies and tools I use to bring ideas to life</p>
+      <div class="header-line"></div>
+    </div>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="skills-section">
+
+      <!-- Circular Progress (Top Skills) -->
+      <div class="skill-category">
+        <h3><i class="fas fa-chart-pie"></i> Top Skills</h3>
+
+        <!-- SVG gradient definition for circular progress -->
+        <svg width="0" height="0" style="position:absolute;">
+          <defs>
+            <linearGradient id="gradBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#0066FF" />
+              <stop offset="100%" stop-color="#00BFFF" />
+            </linearGradient>
+          </defs>
+        </svg>
+
+        <div class="circular-skills">
+          <div class="circular-skill reveal" data-tilt>
+            <div class="circular-progress">
+              <svg width="120" height="120">
+                <circle class="bg-ring" cx="60" cy="60" r="50" />
+                <circle class="fg-ring" cx="60" cy="60" r="50" data-percent="95" />
+              </svg>
+              <div class="percent">0%</div>
+            </div>
+            <h4>HTML5</h4>
+          </div>
+          <div class="circular-skill reveal reveal-delay-1" data-tilt>
+            <div class="circular-progress">
+              <svg width="120" height="120">
+                <circle class="bg-ring" cx="60" cy="60" r="50" />
+                <circle class="fg-ring" cx="60" cy="60" r="50" data-percent="90" />
+              </svg>
+              <div class="percent">0%</div>
+            </div>
+            <h4>CSS3</h4>
+          </div>
+          <div class="circular-skill reveal reveal-delay-2" data-tilt>
+            <div class="circular-progress">
+              <svg width="120" height="120">
+                <circle class="bg-ring" cx="60" cy="60" r="50" />
+                <circle class="fg-ring" cx="60" cy="60" r="50" data-percent="88" />
+              </svg>
+              <div class="percent">0%</div>
+            </div>
+            <h4>JavaScript</h4>
+          </div>
+          <div class="circular-skill reveal reveal-delay-3" data-tilt>
+            <div class="circular-progress">
+              <svg width="120" height="120">
+                <circle class="bg-ring" cx="60" cy="60" r="50" />
+                <circle class="fg-ring" cx="60" cy="60" r="50" data-percent="85" />
+              </svg>
+              <div class="percent">0%</div>
+            </div>
+            <h4>React</h4>
+          </div>
+          <div class="circular-skill reveal reveal-delay-4" data-tilt>
+            <div class="circular-progress">
+              <svg width="120" height="120">
+                <circle class="bg-ring" cx="60" cy="60" r="50" />
+                <circle class="fg-ring" cx="60" cy="60" r="50" data-percent="92" />
+              </svg>
+              <div class="percent">0%</div>
+            </div>
+            <h4>UI/UX Design</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frontend Skills -->
+      <div class="skill-category">
+        <h3><i class="fas fa-code"></i> Frontend Development</h3>
+        <div class="skills-grid">
+          <div class="skill-card reveal" data-tilt>
+            <div class="skill-icon"><i class="fab fa-html5" style="color:#e34f26;"></i></div>
+            <h4>HTML5</h4>
+            <p>Semantic markup and modern HTML features</p>
+            <div class="progress-bar"><div class="progress-fill" data-value="95"></div></div>
+            <div class="progress-value">95%</div>
+          </div>
+          <div class="skill-card reveal reveal-delay-1" data-tilt>
+            <div class="skill-icon"><i class="fab fa-css3-alt" style="color:#1572b6;"></i></div>
+            <h4>CSS3</h4>
+            <p>Advanced layouts, animations, and flexbox/grid</p>
+            <div class="progress-bar"><div class="progress-fill" data-value="90"></div></div>
+            <div class="progress-value">90%</div>
+          </div>
+          <div class="skill-card reveal reveal-delay-2" data-tilt>
+            <div class="skill-icon"><i class="fab fa-js" style="color:#f7df1e;"></i></div>
+            <h4>JavaScript</h4>
+            <p>ES6+, DOM manipulation, async programming</p>
+            <div class="progress-bar"><div class="progress-fill" data-value="88"></div></div>
+            <div class="progress-value">88%</div>
+          </div>
+          <div class="skill-card reveal reveal-delay-3" data-tilt>
+            <div class="skill-icon"><i class="fab fa-react" style="color:#61dafb;"></i></div>
+            <h4>React</h4>
+            <p>Components, hooks, state management</p>
+            <div class="progress-bar"><div class="progress-fill" data-value="85"></div></div>
+            <div class="progress-value">85%</div>
+          </div>
+          <div class="skill-card reveal reveal-delay-4" data-tilt>
+            <div class="skill-icon"><i class="fab fa-bootstrap" style="color:#7952b3;"></i></div>
+            <h4>Bootstrap</h4>
+            <p>Rapid responsive development framework</p>
+            <div class="progress-bar"><div class="progress-fill" data-value="82"></div></div>
+            <div class="progress-value">82%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Design Skills -->
+      <div class="skill-category">
+        <h3><i class="fas fa-palette"></i> Design</h3>
+        <div class="skills-grid">
+          <div class="skill-card reveal" data-tilt>
+            <div class="skill-icon"><i class="fas fa-pencil-ruler" style="color:#00BFFF;"></i></div>
+            <h4>UI/UX Design</h4>
+            <p>User-centered design thinking and wireframing</p>
+            <div class="progress-bar"><div class="progress-fill" data-value="92"></div></div>
+            <div class="progress-value">92%</div>
+          </div>
+          <div class="skill-card reveal reveal-delay-1" data-tilt>
+            <div class="skill-icon"><i class="fab fa-figma" style="color:#a259ff;"></i></div>
+            <h4>Figma</h4>
+            <p>Prototyping, design systems, and collaboration</p>
+            <div class="progress-bar"><div class="progress-fill" data-value="88"></div></div>
+            <div class="progress-value">88%</div>
+          </div>
+          <div class="skill-card reveal reveal-delay-2" data-tilt>
+            <div class="skill-icon"><i class="fas fa-mobile-alt" style="color:#00BFFF;"></i></div>
+            <h4>Responsive Design</h4>
+            <p>Mobile-first approach and breakpoint strategy</p>
+            <div class="progress-bar"><div class="progress-fill" data-value="90"></div></div>
+            <div class="progress-value">90%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="skill-category">
+        <h3><i class="fas fa-tools"></i> Tools & Workflow</h3>
+        <div class="skills-grid">
+          <div class="skill-card reveal" data-tilt>
+            <div class="skill-icon"><i class="fab fa-git-alt" style="color:#f05032;"></i></div>
+            <h4>Git</h4>
+            <p>Version control and branching strategies</p>
+            <div class="progress-bar"><div class="progress-fill" data-value="85"></div></div>
+            <div class="progress-value">85%</div>
+          </div>
+          <div class="skill-card reveal reveal-delay-1" data-tilt>
+            <div class="skill-icon"><i class="fab fa-github" style="color:#ffffff;"></i></div>
+            <h4>GitHub</h4>
+            <p>Collaboration, PRs, and CI/CD workflows</p>
+            <div class="progress-bar"><div class="progress-fill" data-value="87"></div></div>
+            <div class="progress-value">87%</div>
+          </div>
+          <div class="skill-card reveal reveal-delay-2" data-tilt>
+            <div class="skill-icon"><i class="fas fa-code" style="color:#00BFFF;"></i></div>
+            <h4>VS Code</h4>
+            <p>Primary IDE with custom extensions and shortcuts</p>
+            <div class="progress-bar"><div class="progress-fill" data-value="95"></div></div>
+            <div class="progress-value">95%</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </div><!-- /page-wrapper -->
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>Alex<span>.</span>Carter</h3>
+        <p>Web Developer & UI/UX Designer crafting premium digital experiences with passion and precision.</p>
+        <div class="footer-social">
+          <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:hello@alexcarter.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>More</h4>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Alex Carter. All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
